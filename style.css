@@ -150,12 +150,33 @@ body {
 
  .proyectos .project {
      background-color: whitesmoke;
-     height: 300px;
+     /* height: 300px; */
      display: flex;
      justify-content: center;
      align-items: center;
      border-radius: 5px;
+     /* animation: ver 1s both; */
  }
+
+ @keyframes ver {
+     0% {
+         opacity: 0;
+         height: 0px;
+     } 100% {
+         opacity: 1;
+         height: 300px;
+     }
+ }
+
+ @keyframes ver2 {
+    0% {
+        opacity: 1;
+        height: 300px;
+    } 100% {
+        opacity: 0;
+        height: 0px;
+    }
+}
 
  .proyectos .project a {
      font-size: xx-large;
