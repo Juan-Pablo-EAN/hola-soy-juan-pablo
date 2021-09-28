@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.fondo {
+    width: 100%;
+    height: 1050px;
+    background-image: url(https://images.unsplash.com/photo-1561114075-672597adf473?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=876&q=80);
+    background-position-y: 0px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fondo .capa1 {
+    width: 100%;
+    height: 100%;
+    background-image: url(https://static.wixstatic.com/media/45d10e_8304bd3ea2e24f62b9e16320efdb79e5~mv2.png/v1/fill/w_1108,h_883,al_c,q_90,usm_0.66_1.00_0.01/45d10e_8304bd3ea2e24f62b9e16320efdb79e5~mv2.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+}
+
+.fondo .video {
+    width: 100%;
+    max-width: 800px;
+    height: 500px;
+    background-color: white;
+    position: absolute;
+    bottom: -120%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+footer {
+    background: #141414;
+    width: 100%;
+    height: 700px;
+}
